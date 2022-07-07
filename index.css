@@ -1,0 +1,270 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+header{
+  background-image: url(images/donation13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.header-container{
+  height: 60vh;
+  padding-top: 20vh;
+}
+.header-container h1{
+ color: rgb(253, 253, 253);
+ text-align: center;
+ padding-bottom:3vh;
+}
+.header-container p{
+  color: whitesmoke;
+  text-align: center;
+  padding-bottom: 3vh;
+}
+#header-button{
+  display: flex;
+  justify-content: center;
+}
+.header-container a{
+  padding: 10px 20px;
+  background-image: linear-gradient(pink , tomato);
+  text-decoration: none;
+  color: whitesmoke;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.main-container-1{
+text-align: center;
+}
+.main-container-2{
+text-align: justify;
+}
+.main-container-3{
+ display: flex;
+ justify-content: center;
+ padding-top: 5vh;
+}
+#money1{
+padding-top: 2.5vh;
+padding-right: 3vw;
+}
+#money2{
+padding-top: 2.5vh;
+padding-right: 3vw; ;
+}
+#money3{
+padding-top: 2.5vh;
+padding-right: 3vw;
+}
+#money4{
+  height: 5vh;
+  width: 5vw;
+  border: 2.5px solid tomato;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 2vh;
+}
+#money5{
+padding-top: 2.5vh;
+padding-left: 3vw;
+}
+.main-container-4 input{
+height: 3vh;
+width: 50%;
+border: 3px solid rgb(197, 188, 188);
+}
+.main-container-4 a{
+  padding: 10px 20px;
+  background-image: linear-gradient(pink,tomato);
+  text-decoration: none;
+  color: whitesmoke;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.main-container-5 ul li {
+  text-align: justify;
+  padding-left: 17.5vw;
+  list-style: none;
+}
+.main-container-6{
+ display: flex;
+}
+#frist-container-1{
+  padding-top: 2.5vh;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  padding-bottom: 2.5vw;
+ background-image: linear-gradient( rgb(170, 201, 209) , white);
+ height:85vh;
+  margin: 15px 15px;
+  width: 40vw;
+  border: 10px solid rgb(83, 83, 226);
+  border-radius: 10px;
+  border-style: double;
+  box-shadow: 5px 5px 5px 5px ;
+}
+#frist-container-1 img{
+  padding-left: 11vw;
+}
+#frist-container-1 h3{
+  text-align: center;
+}
+#frist-container-1 p{
+  text-align: center;
+}
+#frist-container-2{
+  padding-top: 2.5vh;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  padding-bottom: 2.5vw;
+  background-image: linear-gradient(rgb(230, 128, 128) , white );
+  height: 85vh;
+  width: 40vw;
+  margin: 15px 15px;
+  border: 10px solid rgb(226, 83, 83);
+  border-style: double;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px ;
+}
+#frist-container-2 img{
+padding-left: 11vw;
+}
+#frist-container-2 h3{
+  text-align: center;
+}
+#frist-container-2 p{
+  text-align: center;
+}
+#frist-container-3{
+ padding-top: 2.5vh;
+ padding-left: 2.5vw;
+ padding-right: 2.5vw;
+ padding-bottom: 2.5vw;
+  background-image: linear-gradient(pink , white);
+  height: 85vh;
+  width: 40vw;
+  margin: 15px 15px;
+  border: 10px solid rgb(226, 83, 202);
+  border-style: double;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px ;
+}
+#frist-container-3 img{
+padding-left: 8vw;
+height: 10vh;
+width: 10vw;
+}
+#frist-container-3 h3{
+  text-align: center;
+}
+#frist-container-3 p{
+  text-align: center;
+}
+.main-container-7{
+  display: flex;
+}
+#sceond-container-1{
+  height: 15vh;
+  width: 50vw;
+ padding-left: 25vw;
+}
+#sceond-container-1 h2{
+text-align: justify;
+}
+#sceond-container-1 p{
+  text-align: justify;
+}
+#sceond-container-1 a{
+  padding: 10px 20px;
+  background-image: linear-gradient(pink,tomato);
+  text-decoration: none;
+  color: whitesmoke;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+#photo-container-1{
+  padding-left: 5vw;
+}
+#photo-container-1 img{
+  height: 50vh;
+  width: 30vw;
+}
+.main-container-8{
+  display: flex;
+  padding-left: 25vw;
+  padding-top: 25vw;
+}
+#sceeond-container-2{
+  height: 15vh;
+  width: 50vw;
+ padding-left: 5vw;
+}
+#photo-container-2 img{
+  height: 50vh;
+  width: 30vw;
+}
+#sceeond-container-2 h2{
+  text-align: justify;
+}
+#sceeond-container-2 p{
+  text-align: justify;
+}
+#sceeond-container-2 a{
+  padding: 10px 20px;
+  background-image: linear-gradient(pink,tomato);
+  text-decoration: none;
+  color: whitesmoke;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.main-container-9{
+  height: 50vh;
+  width: 36vw;
+}
+.main-container-9 h1{
+  padding-bottom: 2.5vh;
+}
+.main-container-10{
+  background-color: rgb(252, 206, 215);
+  height: 10vh;
+  width: 50vw;
+  padding-top: 2vh;
+  border: 10px solid rgb(255, 154, 174) ;
+  border-radius: 10px;
+  border-style: double;
+  box-shadow: 7.5px 7.5px 7.5px 7.5px;
+}
+#email-box input{
+  height: 5vh;
+  width: 20vw;
+  border: 10px solid rgb(255, 154, 174)  ;
+  border-radius: 10px;
+  border-style: double;
+}
+#email-box button{
+  height: 7.5vh;
+  width: 7vw;
+  color: whitesmoke;
+  font-weight:bolder ;
+  background-image:linear-gradient(pink,tomato) ;
+  border: 5px solid rgb(255, 154, 174)  ;
+  border-radius: 10px;
+  cursor: pointer;
+}
+footer{
+  background-color: black;
+  max-width: 100%;
+  height: 50vh;
+}
+footer h2{
+  padding-top: 15vh;
+  color: tomato;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: 'Splash', cursive;
+
+}
+footer p{
+  color: whitesmoke;
+}
