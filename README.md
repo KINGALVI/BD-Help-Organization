@@ -21,7 +21,6 @@ BD-Donate-Organization is a **transparent and structured donation platform** tha
 ## 🛠️ **Technologies Used**
 
 - **HTML5 & CSS3** – Modern, responsive, and aesthetically pleasing design.
-- **JavaScript** – Enhancing interactivity for a smooth user experience.
 - **Netlify Deployment** – Ensuring fast and efficient hosting for global accessibility.
 
 ---
