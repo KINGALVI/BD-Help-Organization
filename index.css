@@ -1,0 +1,859 @@
+/* 
+   BODY STYLING
+   - Sets the font family to 'Poppins', ensuring a clean, modern, and readable appearance across the entire webpage.
+   - Removes the default margin so that all elements align properly at the edges without unwanted spacing.
+*/
+body {
+  font-family: 'Poppins', sans-serif;
+  /* Applies the chosen font */
+  margin: 0;
+  /* Removes extra white space around the body */
+}
+
+
+/* 
+   HEADER STYLING
+   - Applies a background image to the header section for a visually appealing design.
+   - Ensures the image covers the entire header container without stretching or distorting (background-size: cover).
+   - Prevents the image from repeating, ensuring only one instance is displayed (background-repeat: no-repeat).
+   - Positions the image centrally so it aligns well across different screen sizes.
+*/
+header {
+  background-image: url(Project-Degine-&-Image/images/donation13.jpg);
+  /* Adds the background image */
+  background-size: cover;
+  /* Makes the image fit perfectly across the header */
+  background-repeat: no-repeat;
+  /* Prevents the image from repeating */
+  background-position: center;
+  /* Centers the image */
+}
+
+
+/* 
+   HEADER CONTAINER STYLING
+   - Defines a fixed height of 60% of the viewport height, ensuring the header remains prominent on different screen sizes.
+   - Adds top padding of 20% of the viewport height to adjust the positioning of its content.
+   - This helps visually balance the header elements and ensures they are positioned well within the header space.
+*/
+.header-container {
+  height: 60vh;
+  /* Sets the height to 60% of the viewport */
+  padding-top: 20vh;
+  /* Pushes the content down for proper alignment */
+}
+
+
+/* 
+   HEADER TITLE STYLING
+   - Sets the text color to an **RGB white shade** (rgb(253, 253, 253)) for contrast against the header background image.
+   - Centers the heading text to maintain symmetry within the container.
+   - Adds bottom padding of **3vh** to create space between the heading and any following content.
+*/
+.header-container h1 {
+  color: rgb(253, 253, 253);
+  /* White color for better visibility */
+  text-align: center;
+  /* Centers the heading */
+  padding-bottom: 3vh;
+  /* Creates spacing below the heading */
+}
+
+
+/* 
+   HEADER PARAGRAPH STYLING
+   - Sets the paragraph text color to 'whitesmoke' for a clean and readable look against the header background.
+   - Centers the text horizontally to ensure a structured and visually appealing design.
+   - Adds bottom padding of **3vh** to create space between the paragraph and the next element.
+*/
+.header-container p {
+  color: whitesmoke;
+  /* Light white shade for readability */
+  text-align: center;
+  /* Ensures text is centrally aligned */
+  padding-bottom: 3vh;
+  /* Creates vertical spacing below the paragraph */
+}
+
+
+/* 
+   HEADER BUTTON WRAPPER
+   - Uses **flexbox** to properly align the button container.
+   - Centers the button horizontally within the header section.
+   - Allows flexibility for future styling adjustments, such as spacing or additional buttons.
+*/
+#header-button {
+  display: flex;
+  /* Enables flexbox for better alignment */
+  justify-content: center;
+  /* Centers the button horizontally */
+}
+
+
+/* 
+   STYLING FOR DONATE BUTTON
+   - Adds padding (10px top/bottom and 20px left/right) to create a larger clickable area.
+   - Uses a **linear gradient** background (pink to tomato) to create an eye-catching button effect.
+   - Removes default underline from the text (`text-decoration: none`) for a clean button look.
+   - Colors the button text in **whitesmoke** to contrast well with the background.
+   - Rounds the corners (border-radius: 10px) to give the button a soft, modern look.
+   - Increases font weight (`font-weight: bolder`) to make the text stand out more prominently.
+*/
+.header-container a {
+  padding: 10px 20px;
+  /* Adds space inside the button */
+  background-image: linear-gradient(pink, tomato);
+  /* Creates a color transition */
+  text-decoration: none;
+  /* Removes underline */
+  color: whitesmoke;
+  /* Sets readable text color */
+  border-radius: 10px;
+  /* Makes button corners rounded */
+  font-weight: bolder;
+  /* Highlights the button text */
+}
+
+
+/* 
+   MAIN CONTENT SECTION: TITLE CONTAINER
+   - Ensures the title text is **center-aligned**, maintaining a well-structured layout.
+   - Helps maintain readability and organization within the section.
+*/
+.main-container-1 {
+  text-align: center;
+  /* Aligns the section's title */
+}
+
+
+/* 
+   MAIN CONTENT SECTION: JUSTIFICATION CONTAINER
+   - Ensures all text in `.main-container-2` is **justified**, improving readability.
+   - Helps create a **clean text alignment**, especially useful for long paragraphs.
+   - Adds a structured format, making content look more professional.
+*/
+.main-container-2 {
+  text-align: justify;
+  /* Aligns text evenly along both left and right edges */
+}
+
+
+/* 
+   DONATION AMOUNT SECTION
+   - Uses **flexbox** to distribute donation options **horizontally**.
+   - Centers the donation boxes for a visually balanced layout.
+   - Adds top padding (**5vh**) to create space between this section and the previous one.
+*/
+.main-container-3 {
+  display: flex;
+  /* Enables a flexible layout */
+  justify-content: center;
+  /* Centers donation boxes within the section */
+  padding-top: 5vh;
+  /* Adds vertical space above the donation boxes */
+}
+
+
+/* 
+   STYLING FOR INDIVIDUAL DONATION AMOUNTS
+   - Adds **top padding** of 2.5vh to align donation boxes properly within the section.
+   - Adds **right padding** of 3vw to create spacing between donation amounts.
+*/
+#money1 {
+  padding-top: 2.5vh;
+  /* Creates space above the donation box */
+  padding-right: 3vw;
+  /* Adds space to the right to separate it from other elements */
+}
+
+
+/* 
+   STYLING FOR SECOND DONATION AMOUNT BOX
+   - Uses the same **top padding** (2.5vh) to ensure consistency in vertical alignment.
+   - Adds **right padding** of 3vw to maintain uniform spacing between donation amounts.
+   - There is an extra semicolon (`;`) at the end, which is not necessary but does not affect functionality.
+*/
+#money2 {
+  padding-top: 2.5vh;
+  /* Creates space above the donation box */
+  padding-right: 3vw;
+  /* Adds space to the right for consistency */
+}
+
+
+/* 
+   STYLING FOR THIRD DONATION BOX ($100)
+   - Adds **top padding** of 2.5vh to keep the donation box aligned with others.
+   - Adds **right padding** of 3vw to maintain consistent spacing between donation options.
+*/
+#money3 {
+  padding-top: 2.5vh;
+  /* Adds space above the donation box */
+  padding-right: 3vw;
+  /* Creates separation between adjacent donation boxes */
+}
+
+
+/* 
+   STYLING FOR FOURTH DONATION BOX ($500)
+   - Defines a **fixed height** (5vh) and **width** (5vw) for proper visibility.
+   - Adds a **solid border** (2.5px) with 'tomato' color to highlight this donation option.
+   - Rounds the corners slightly (border-radius: 5px) for a modern, softer look.
+   - Centers the text inside the box to improve readability.
+   - Applies **top padding** (2vh) to space the text properly within the box.
+*/
+#money4 {
+  height: 5vh;
+  /* Defines fixed height */
+  width: 5vw;
+  /* Defines fixed width */
+  border: 2.5px solid tomato;
+  /* Adds a visually distinct border */
+  border-radius: 5px;
+  /* Rounds the corners */
+  text-align: center;
+  /* Ensures the text is centered */
+  padding-top: 2vh;
+  /* Creates vertical spacing inside the box */
+}
+
+
+/* 
+   STYLING FOR FIFTH DONATION BOX ($1000)
+   - Adds **top padding** of 2.5vh to align it with the other donation boxes.
+   - Adds **left padding** of 3vw to maintain consistent spacing and separation from other elements.
+*/
+#money5 {
+  padding-top: 2.5vh;
+  /* Ensures vertical alignment consistency */
+  padding-left: 3vw;
+  /* Adds spacing to the left for better layout */
+}
+
+
+/* 
+   CUSTOM DONATION INPUT FIELD
+   - Defines **height** (3vh) and **width** (50%) to keep the input field prominent and easy to use.
+   - Adds a **3px solid border** with a light gray color (rgb(197, 188, 188)), ensuring visual distinction.
+   - Helps users clearly identify the field where they can enter their custom donation amount.
+*/
+.main-container-4 input {
+  height: 3vh;
+  /* Defines the input height */
+  width: 50%;
+  /* Ensures input takes up half of the container width */
+  border: 3px solid rgb(197, 188, 188);
+  /* Creates a subtle border to outline the field */
+}
+
+
+/* 
+   STYLING FOR "DONATE NOW" BUTTON
+   - Adds **padding** (10px top/bottom, 20px left/right) to make the button more clickable and visually distinct.
+   - Uses a **linear gradient** (pink to tomato) for an engaging color transition.
+   - Removes default text underline (`text-decoration: none`) to maintain a clean button design.
+   - Colors the button text in **whitesmoke** for high contrast and readability.
+   - Rounds the button corners (`border-radius: 10px`) for a smooth, modern look.
+   - Increases font weight (`font-weight: bolder`) to ensure the text is prominent.
+*/
+.main-container-4 a {
+  padding: 10px 20px;
+  /* Creates space inside the button */
+  background-image: linear-gradient(pink, tomato);
+  /* Adds a gradient effect */
+  text-decoration: none;
+  /* Removes default underline */
+  color: whitesmoke;
+  /* Ensures high contrast readability */
+  border-radius: 10px;
+  /* Rounds corners for a softer appearance */
+  font-weight: bolder;
+  /* Makes button text more visually dominant */
+}
+
+
+/* 
+   STYLING FOR DONATION IMPACT LIST
+   - Justifies text (`text-align: justify`) to ensure even spacing along both left and right edges.
+   - Adds **left padding** (17.5vw) to push the list items inward from the left side for better alignment.
+   - Removes default bullet points (`list-style: none`) for a cleaner visual appearance.
+*/
+.main-container-5 ul li {
+  text-align: justify;
+  /* Ensures text is evenly aligned */
+  padding-left: 17.5vw;
+  /* Adds space from the left for improved layout */
+  list-style: none;
+  /* Removes bullet points */
+}
+
+
+/* 
+   MAIN CONTAINER 6 STYLING
+   - Uses **flexbox** to align the child elements horizontally.
+   - This structure helps in creating a **responsive layout**, allowing donation categories to be neatly arranged side by side.
+*/
+.main-container-6 {
+  display: flex;
+  /* Enables flexible positioning */
+}
+
+
+/* 
+   FIRST DONATION CATEGORY CONTAINER (FOOD FOR A FAMILY)
+   - Adds **padding on all sides** (top, left, right, bottom) to create space within the container.
+   - Applies a **gradient background** (light blue to white) for an engaging look.
+   - Sets a **fixed height** of 85vh for a structured layout.
+   - Defines **width** (40vw) to ensure uniform spacing across different donation categories.
+   - Adds **margin** (15px on all sides) to create spacing between adjacent containers.
+   - Adds a **10px solid border** (blue) to highlight the section.
+   - Uses **border-radius** (10px) to round the edges for a smooth, modern design.
+   - Applies **double border styling** to enhance visual appeal.
+   - Adds a **box-shadow** (5px) to make the container stand out and create a depth effect.
+*/
+#frist-container-1 {
+  padding-top: 2.5vh;
+  /* Adds vertical space inside the container */
+  padding-left: 2.5vw;
+  /* Adds left padding for internal spacing */
+  padding-right: 2.5vw;
+  /* Creates right padding for consistent alignment */
+  padding-bottom: 2.5vw;
+  /* Adds space below for internal content alignment */
+  background-image: linear-gradient(rgb(170, 201, 209), white);
+  /* Creates a gradient background */
+  height: 85vh;
+  /* Defines fixed height to maintain structure */
+  margin: 15px 15px;
+  /* Adds external spacing between sections */
+  width: 40vw;
+  /* Ensures uniform width among containers */
+  border: 10px solid rgb(83, 83, 226);
+  /* Creates a bold border in blue */
+  border-radius: 10px;
+  /* Rounds the corners */
+  border-style: double;
+  /* Enhances border design */
+  box-shadow: 5px 5px 5px 5px;
+  /* Adds a shadow effect to create depth */
+}
+
+
+/* 
+   IMAGE STYLING INSIDE FIRST DONATION CONTAINER
+   - Adds **left padding** (11vw) to shift the image towards the right within the container.
+   - Helps in maintaining **proper alignment** if the image is not centered.
+*/
+#frist-container-1 img {
+  padding-left: 11vw;
+  /* Moves image slightly right */
+}
+
+
+/* 
+   HEADING STYLING INSIDE FIRST DONATION CONTAINER
+   - Centers the heading **h3** for a structured and balanced appearance within the container.
+*/
+#frist-container-1 h3 {
+  text-align: center;
+  /* Ensures the heading is properly centered */
+}
+
+
+/* 
+   PARAGRAPH STYLING INSIDE FIRST DONATION CONTAINER
+   - Centers the text inside the paragraph **p** to ensure uniform readability.
+*/
+#frist-container-1 p {
+  text-align: center;
+  /* Keeps text alignment consistent */
+}
+
+
+/* 
+   SECOND DONATION CATEGORY CONTAINER (SHELTER FOR A FAMILY)
+   - Adds **padding on all sides** (top, left, right, bottom) to create space within the container.
+   - Uses a **gradient background** (light red to white) for an engaging visual effect.
+   - Sets a **fixed height** (85vh) to maintain a structured layout across donation categories.
+   - Defines **width** (40vw) to ensure uniform spacing among donation sections.
+   - Applies **margin** (15px on all sides) to maintain spacing between adjacent containers.
+   - Adds a **10px solid border** in a red shade (rgb(226, 83, 83)) for emphasis.
+   - Uses **border-radius** (10px) to round the edges for a smooth, modern look.
+   - Implements a **double border style** to enhance visibility and design.
+   - Applies **box-shadow** (5px) to create depth, making the container visually distinct.
+*/
+#frist-container-2 {
+  padding-top: 2.5vh;
+  /* Adds space above the content */
+  padding-left: 2.5vw;
+  /* Creates left padding for internal spacing */
+  padding-right: 2.5vw;
+  /* Adds right padding to ensure proper alignment */
+  padding-bottom: 2.5vw;
+  /* Provides bottom spacing for a balanced layout */
+  background-image: linear-gradient(rgb(230, 128, 128), white);
+  /* Gradient background effect */
+  height: 85vh;
+  /* Defines fixed height for uniform appearance */
+  width: 40vw;
+  /* Ensures consistent width among donation categories */
+  margin: 15px 15px;
+  /* Adds external spacing between sections */
+  border: 10px solid rgb(226, 83, 83);
+  /* Creates a bold border in red */
+  border-style: double;
+  /* Enhances the border design */
+  border-radius: 10px;
+  /* Rounds the corners for a smoother look */
+  box-shadow: 5px 5px 5px 5px;
+  /* Adds a shadow effect to make the container stand out */
+}
+
+
+/* 
+   IMAGE STYLING INSIDE SECOND DONATION CONTAINER (SHELTER FOR A FAMILY)
+   - Adds **left padding** (11vw) to shift the image towards the right within the container.
+   - Helps in maintaining **proper alignment**, especially if the image is not centered by default.
+*/
+#frist-container-2 img {
+  padding-left: 11vw;
+  /* Moves image slightly to the right */
+}
+
+
+/* 
+   HEADING STYLING INSIDE SECOND DONATION CONTAINER
+   - Centers the heading (**h3**) to create a **balanced layout** within the container.
+*/
+#frist-container-2 h3 {
+  text-align: center;
+  /* Ensures the heading is aligned properly */
+}
+
+
+/* 
+   PARAGRAPH STYLING INSIDE SECOND DONATION CONTAINER
+   - Centers the paragraph text to ensure **uniform readability** within the donation box.
+*/
+#frist-container-2 p {
+  text-align: center;
+  /* Keeps text alignment consistent */
+}
+
+
+/* 
+   THIRD DONATION CATEGORY CONTAINER (EDUCATION FOR A CHILD)
+   - Adds **padding on all sides** (top, left, right, bottom) to create space within the container.
+   - Uses a **gradient background** (pink to white) for an appealing visual transition.
+   - Sets a **fixed height** (85vh) for consistency across different donation categories.
+   - Defines **width** (40vw) to ensure uniform spacing among sections.
+   - Applies **margin** (15px on all sides) to maintain spacing between adjacent containers.
+   - Adds a **10px solid border** with a pink shade (rgb(226, 83, 202)) for emphasis.
+   - Uses **border-radius** (10px) to round the edges for a modern appearance.
+   - Implements a **double border style** for enhanced visibility.
+   - Applies **box-shadow** (5px) to create depth, making the container stand out.
+*/
+#frist-container-3 {
+  padding-top: 2.5vh;
+  /* Adds space above content */
+  padding-left: 2.5vw;
+  /* Creates left padding for proper spacing */
+  padding-right: 2.5vw;
+  /* Adds right padding for uniform alignment */
+  padding-bottom: 2.5vw;
+  /* Provides space below the section */
+  background-image: linear-gradient(pink, white);
+  /* Gradient effect for better aesthetics */
+  height: 85vh;
+  /* Maintains consistent height */
+  width: 40vw;
+  /* Ensures uniform width among donation categories */
+  margin: 15px 15px;
+  /* Adds external spacing for separation */
+  border: 10px solid rgb(226, 83, 202);
+  /* Highlights section with a bold pink border */
+  border-style: double;
+  /* Enhances visual structure of the border */
+  border-radius: 10px;
+  /* Softens the container edges */
+  box-shadow: 5px 5px 5px 5px;
+  /* Adds depth and an elevated visual effect */
+}
+
+
+/* 
+   IMAGE STYLING INSIDE THIRD DONATION CONTAINER (EDUCATION FOR A CHILD)
+   - Adds **left padding** (8vw) to shift the image slightly toward the center.
+   - Defines **height** (10vh) and **width** (10vw) to ensure proper scaling inside the container.
+*/
+#frist-container-3 img {
+  padding-left: 8vw;
+  /* Moves the image slightly right */
+  height: 10vh;
+  /* Sets the image height */
+  width: 10vw;
+  /* Defines the image width */
+}
+
+
+/* 
+   HEADING STYLING INSIDE THIRD DONATION CONTAINER
+   - Centers the heading (**h3**) to maintain a structured and balanced appearance.
+*/
+#frist-container-3 h3 {
+  text-align: center;
+  /* Ensures proper alignment of the heading */
+}
+
+
+/* 
+   PARAGRAPH STYLING INSIDE THIRD DONATION CONTAINER (EDUCATION FOR A CHILD)
+   - Centers the paragraph text to maintain uniform readability within the section.
+*/
+#frist-container-3 p {
+  text-align: center;
+  /* Ensures the paragraph text is properly centered */
+}
+
+
+/* 
+   MAIN CONTAINER 7 (SECTION FOR IMPACTFUL DONATION MESSAGE)
+   - Uses **flexbox** to arrange elements horizontally for a structured layout.
+   - Helps create a responsive alignment for text and images.
+*/
+.main-container-7 {
+  display: flex;
+  /* Enables flexible positioning for child elements */
+}
+
+
+/* 
+   STYLING FOR SECONDARY CONTAINER (TEXT BLOCK)
+   - Defines **height** (15vh) and **width** (50vw) to ensure structured layout.
+   - Adds **left padding** (25vw) to push the content further right for alignment purposes.
+*/
+#sceond-container-1 {
+  height: 15vh;
+  /* Sets the height for structured content placement */
+  width: 50vw;
+  /* Ensures the container occupies half of the viewport width */
+  padding-left: 25vw;
+  /* Adds space from the left for alignment */
+}
+
+
+/* 
+   HEADING STYLING INSIDE SECONDARY CONTAINER
+   - Justifies the **h2** heading to evenly distribute the text along both left and right edges.
+   - Helps maintain **structured readability** for longer headings.
+*/
+#sceond-container-1 h2 {
+  text-align: justify;
+  /* Adjusts heading alignment for better readability */
+}
+
+
+/* 
+   PARAGRAPH STYLING INSIDE SECONDARY CONTAINER
+   - Justifies the text inside the paragraph to create a neat and professional appearance.
+   - Ensures all lines align properly for **structured readability**.
+*/
+#sceond-container-1 p {
+  text-align: justify;
+  /* Creates a balanced alignment for the paragraph text */
+}
+
+
+/* 
+   STYLING FOR CTA BUTTON INSIDE SECONDARY CONTAINER
+   - Adds **padding** (10px top/bottom, 20px left/right) to make the button visually distinct and easy to click.
+   - Uses a **linear gradient background** (pink to tomato) for an attractive button effect.
+   - Removes default text underline (`text-decoration: none`) to maintain a clean button design.
+   - Colors the button text in **whitesmoke** to ensure contrast and readability.
+   - Rounds the corners (`border-radius: 10px`) for a modern, smooth look.
+   - Increases font weight (`font-weight: bolder`) to highlight its importance as a CTA (Call to Action).
+*/
+#sceond-container-1 a {
+  padding: 10px 20px;
+  /* Creates space inside the button */
+  background-image: linear-gradient(pink, tomato);
+  /* Adds a gradient background */
+  text-decoration: none;
+  /* Removes default underline */
+  color: whitesmoke;
+  /* Ensures high contrast for readability */
+  border-radius: 10px;
+  /* Rounds corners for a modern look */
+  font-weight: bolder;
+  /* Makes button text visually stronger */
+}
+
+
+/* 
+   STYLING FOR PHOTO CONTAINER 1
+   - Adds **left padding** (5vw) to push the image slightly right within the container.
+   - Helps in **positioning** the image better inside the section.
+*/
+#photo-container-1 {
+  padding-left: 5vw;
+  /* Moves the image container slightly to the right */
+}
+
+
+/* 
+   IMAGE STYLING INSIDE PHOTO CONTAINER 1
+   - Defines **fixed height** (50vh) and **width** (30vw) to ensure a proper size and aspect ratio.
+   - Ensures images are large enough to be visually engaging without distortion.
+*/
+#photo-container-1 img {
+  height: 50vh;
+  /* Sets a consistent height for the image */
+  width: 30vw;
+  /* Defines the width to fit the layout */
+}
+
+
+/* 
+   STYLING FOR MAIN CONTAINER 8
+   - Uses **flexbox** to align child elements horizontally.
+   - Adds **left padding** (25vw) to push the container's content inward for better positioning.
+   - Adds **top padding** (25vw) to maintain separation from preceding sections.
+*/
+.main-container-8 {
+  display: flex;
+  /* Enables flexible horizontal arrangement */
+  padding-left: 25vw;
+  /* Moves content inward from the left */
+  padding-top: 25vw;
+  /* Adds space above for layout separation */
+}
+
+
+/* 
+   STYLING FOR SECONDARY CONTAINER 2 (TEXT BLOCK)
+   - Defines **height** (15vh) and **width** (50vw) to ensure structured layout.
+   - Adds **left padding** (5vw) to push the content slightly right for better alignment.
+   - Helps create a balanced space for text content within the section.
+*/
+#sceeond-container-2 {
+  height: 15vh;
+  /* Sets the height for content placement */
+  width: 50vw;
+  /* Occupies half of the viewport width */
+  padding-left: 5vw;
+  /* Adds space from the left for structured alignment */
+}
+
+
+/* 
+   IMAGE STYLING INSIDE PHOTO CONTAINER 2
+   - Defines **fixed height** (50vh) and **width** (30vw) to ensure the image maintains aspect ratio.
+   - Ensures images are large enough to be visually engaging without distortion.
+*/
+#photo-container-2 img {
+  height: 50vh;
+  /* Sets a consistent height for the image */
+  width: 30vw;
+  /* Defines the width to fit the layout */
+}
+
+
+/* 
+   HEADING STYLING INSIDE SECONDARY CONTAINER 2
+   - Justifies the **h2** heading to evenly distribute the text along both left and right edges.
+   - Helps maintain structured readability for longer headings.
+*/
+#sceeond-container-2 h2 {
+  text-align: justify;
+  /* Ensures balanced alignment of the heading */
+}
+
+
+/* 
+   PARAGRAPH STYLING INSIDE SECONDARY CONTAINER 2
+   - Justifies the paragraph text to ensure neat and professional formatting.
+   - Helps align content properly across different screen sizes for **better readability**.
+*/
+#sceeond-container-2 p {
+  text-align: justify;
+  /* Creates structured alignment for paragraph text */
+}
+
+
+/* 
+   STYLING FOR CTA BUTTON INSIDE SECONDARY CONTAINER 2
+   - Adds **padding** (10px top/bottom, 20px left/right) to make the button larger and easy to click.
+   - Uses a **linear gradient background** (pink to tomato) for a visually appealing button effect.
+   - Removes default text underline (`text-decoration: none`) for a cleaner button appearance.
+   - Colors the button text in **whitesmoke** for high contrast and readability.
+   - Rounds the corners (`border-radius: 10px`) for a smooth, modern look.
+   - Increases font weight (`font-weight: bolder`) to highlight its importance as a CTA (Call to Action).
+*/
+#sceeond-container-2 a {
+  padding: 10px 20px;
+  /* Creates space inside the button */
+  background-image: linear-gradient(pink, tomato);
+  /* Adds a gradient background */
+  text-decoration: none;
+  /* Removes default underline */
+  color: whitesmoke;
+  /* Ensures high contrast for readability */
+  border-radius: 10px;
+  /* Rounds corners for a modern design */
+  font-weight: bolder;
+  /* Makes button text more visually dominant */
+}
+
+
+/* 
+   STYLING FOR MAIN CONTAINER 9 (SUBSCRIPTION SECTION)
+   - Defines **height** (50vh) and **width** (36vw) to structure the section.
+   - Helps maintain a **balanced layout** for subscription details.
+*/
+.main-container-9 {
+  height: 50vh;
+  /* Defines the height of the subscription section */
+  width: 36vw;
+  /* Controls the section width for proper alignment */
+}
+
+
+/* 
+   HEADING STYLING INSIDE MAIN CONTAINER 9
+   - Adds **bottom padding** (2.5vh) to create space below the heading.
+   - Ensures proper separation between the heading and following content.
+*/
+.main-container-9 h1 {
+  padding-bottom: 2.5vh;
+  /* Adds vertical spacing below the heading */
+}
+
+
+/* 
+   STYLING FOR SUBSCRIPTION BOX CONTAINER (MAIN CONTAINER 10)
+   - Applies **light pink background color** (rgb(252, 206, 215)) to make the box visually distinct.
+   - Defines **height** (10vh) and **width** (50vw) for a structured subscription layout.
+   - Adds **top padding** (2vh) to space out its content.
+   - Sets a **10px solid border** in pink (rgb(255, 154, 174)) for definition.
+   - Uses **border-radius** (10px) to smooth the edges.
+   - Applies **double border style** for an enhanced visual effect.
+   - Adds **box-shadow** (7.5px on all sides) to create depth and a floating effect.
+*/
+.main-container-10 {
+  background-color: rgb(252, 206, 215);
+  /* Defines a light pink background */
+  height: 10vh;
+  /* Sets the height of the subscription box */
+  width: 50vw;
+  /* Defines the width for proper layout */
+  padding-top: 2vh;
+  /* Adds space between the content and the box edges */
+  border: 10px solid rgb(255, 154, 174);
+  /* Creates a bold pink border */
+  border-radius: 10px;
+  /* Rounds the edges for a smoother look */
+  border-style: double;
+  /* Enhances the box border design */
+  box-shadow: 7.5px 7.5px 7.5px 7.5px;
+  /* Adds depth effect with a subtle shadow */
+}
+
+
+/* 
+   STYLING FOR EMAIL INPUT FIELD
+   - Defines **fixed height** (5vh) and **width** (20vw) to ensure the input field is properly sized for user convenience.
+   - Sets a **solid border** (10px) in pink (rgb(255, 154, 174)) to create a strong visual outline.
+   - Applies **border-radius** (10px) to round the corners for a modern and smooth appearance.
+   - Uses **double border styling** to enhance visual separation from surrounding elements.
+*/
+#email-box input {
+  height: 5vh;
+  /* Defines input height */
+  width: 20vw;
+  /* Sets input width for proper structure */
+  border: 10px solid rgb(255, 154, 174);
+  /* Adds a bold pink border */
+  border-radius: 10px;
+  /* Smooths the edges */
+  border-style: double;
+  /* Enhances border appearance */
+}
+
+
+/* 
+   STYLING FOR SUBSCRIBE BUTTON
+   - Defines **height** (7.5vh) and **width** (7vw) to ensure a clickable, prominent button.
+   - Colors the button text in **whitesmoke** for high contrast and readability.
+   - Uses **bold font weight** (`font-weight: bolder`) to emphasize the call to action.
+   - Applies a **linear gradient background** (pink to tomato) for an engaging visual transition.
+   - Sets a **solid border** (5px) in pink (rgb(255, 154, 174)) to frame the button clearly.
+   - Applies **border-radius** (10px) to soften edges and create a more modern appearance.
+   - Adds **cursor: pointer** to indicate interactivity when the user hovers over the button.
+*/
+#email-box button {
+  height: 7.5vh;
+  /* Sets button height */
+  width: 7vw;
+  /* Defines button width */
+  color: whitesmoke;
+  /* Makes button text clearly visible */
+  font-weight: bolder;
+  /* Highlights button text */
+  background-image: linear-gradient(pink, tomato);
+  /* Creates an eye-catching gradient */
+  border: 5px solid rgb(255, 154, 174);
+  /* Adds a structured pink border */
+  border-radius: 10px;
+  /* Rounds the edges */
+  cursor: pointer;
+  /* Indicates interactivity */
+}
+
+
+/* 
+   FOOTER STYLING
+   - Sets a **black background color** to create strong contrast with the content above.
+   - Defines **maximum width** as 100% to ensure the footer spans the full width of the page.
+   - Applies **height** (50vh) to provide ample space for footer content and branding.
+*/
+footer {
+  background-color: black;
+  /* Creates a bold footer contrast */
+  max-width: 100%;
+  /* Ensures footer spans full width */
+  height: 50vh;
+  /* Provides ample height for footer content */
+}
+
+
+/* 
+   STYLING FOR FOOTER HEADING (h2)
+   - Adds **top padding** (15vh) to push the heading downward within the footer.
+   - Sets **text color** to tomato, creating contrast against the black footer background.
+   - Applies **bold font weight** to make the heading visually prominent.
+   - Defines **font size** as 50px for a strong, attention-grabbing effect.
+   - Uses **'Splash', cursive font** to give the heading a stylish and unique appearance.
+*/
+footer h2 {
+  padding-top: 15vh;
+  /* Adds vertical spacing above the heading */
+  color: tomato;
+  /* Makes the heading stand out */
+  font-weight: bold;
+  /* Ensures the heading appears strong */
+  font-size: 50px;
+  /* Defines large text size */
+  font-family: 'Splash', cursive;
+  /* Uses a stylish font */
+}
+
+
+/* 
+   STYLING FOR FOOTER PARAGRAPH (p)
+   - Colors the paragraph text in **whitesmoke** for better readability against the dark background.
+   - Ensures text remains **clear and visible** for users engaging with footer content.
+*/
+footer p {
+  color: whitesmoke;
+  /* Improves readability against the black footer background */
+}

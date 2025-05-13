@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="Project-Degine-&-Image/donation-favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="index.css">
+  <title>BD-Help-Organization</title>
+</head>
+
+<body>
+
+  <!-- HEADER SECTION
+   - This section contains the main **title**, a brief **description**, and a **donation button**.
+   - It serves as the **first impression** for visitors, encouraging them to contribute to the cause. -->
+  <header>
+
+    <!-- HEADER CONTAINER
+     - Wraps all header content to structure it effectively.
+     - Can be styled with CSS to control layout, positioning, and background effects. -->
+    <div class="header-container">
+
+      <!-- MAIN TITLE
+       - Displays the **primary heading** for the website.
+       - Uses <h1> for **semantic correctness**, as this is the most important heading.
+       - Contains a **line break (<br>)**, but it is recommended to use CSS for better spacing instead. -->
+      <h1>Let's Help Those Poor People Who Are <br> Suffer And Need Help</h1>
+
+      <!-- SUPPORTING DESCRIPTION
+       - Provides a **brief overview** of the organization’s mission and objectives.
+       - Focuses on **saving lives, protecting rights, and providing education & healthcare**.
+       - The text could be slightly condensed for improved readability. -->
+      <p>
+        We work day-in and day-out, in some of the world’s toughest places, to reach the children and young people
+        who are most at risk and most in need. We work to save their lives, protect their rights, and give them access
+        to education and healthcare.
+      </p>
+
+      <!-- DONATION BUTTON WRAPPER
+       - Wraps the **Donate Now** button within a <span> tag.
+       - This ID (#header-button) allows CSS styling for positioning and alignment. -->
+      <span id="header-button">
+
+        <!-- CALL TO ACTION BUTTON (DONATE NOW)
+         - Serves as the primary action button encouraging donations.
+         - Uses <a> to create a clickable link.
+         - The `target="_blank"` attribute ensures the donation page opens in a **new tab**.
+         - The href attribute should be linked to a valid donation page. -->
+        <a target="_blank" href="#">DONATE NOW</a>
+      </span>
+
+    </div>
+  </header>
+
+
+
+  <br><br>
+
+
+
+  <!-- MAIN SECTION: CORE CONTENT OF THE WEBSITE
+ - Contains essential information about the organization, donation programs, and ways to contribute.
+ - Includes structured content blocks to highlight different aspects of the donation initiative.
+ - This section serves as the **primary focus** for engaging visitors and encouraging participation. -->
+  <main>
+
+
+    <!-- SECTION: ORGANIZATION INTRODUCTION
+   - This section introduces **BD-Donate-Organization** and highlights its purpose.
+   - Uses an <h1> tag for the **main heading**, ensuring the title stands out as the **largest and most important text**. -->
+    <div class="main-container-1">
+      <h1>Why BD-Donate-Organization?</h1>
+    </div>
+
+
+    <!-- SECTION: REASONS TO DONATE
+   - Provides compelling **reasons** why people should contribute.
+   - Uses an **ordered list (<ol>)** to present key statistics in a structured format. -->
+    <div class="main-container-2">
+
+      <!-- HEADING INSIDE LIST
+     - <h3> is used to introduce the list, but should be **placed outside the <ol> element**.
+     - Keeping <h3> outside ensures proper **semantic structure** and avoids accessibility issues. -->
+      <h3>Donation Puts You in Good Company:</h3>
+
+      <ol>
+        <!-- INDIVIDUAL LIST ITEMS
+       - Each <li> presents an impactful statistic about BD-Donate-Organization’s humanitarian work.
+       - Avoid using <br> inside list items; instead, use **CSS margin or padding** to create spacing. -->
+        <li>BD-Donate-Organization has helped save more children's lives than any other humanitarian organization – 90
+          million since 1990.</li>
+        <li>BD-Donate-Organization is the world’s largest provider of ready-to-use therapeutic food.</li>
+        <li>BD-Donate-Organization immunizes nearly 40% of the world’s children.</li>
+      </ol>
+
+    </div>
+
+
+    <!-- SECTION: FIXED DONATION AMOUNTS
+   - Displays preset donation options in **a structured format** for easy selection.
+   - Uses individual **<div>** elements to represent different amounts.
+   - Consider **turning these into interactive buttons** with JavaScript for better user experience (UX). -->
+    <div class="main-container-3">
+
+      <!-- Individual preset donation options -->
+      <div id="money1">25$</div> <!-- Represents a donation of $25 -->
+      <div id="money2">50$</div> <!-- Represents a donation of $50 -->
+      <div id="money3">100$</div> <!-- Represents a donation of $100 -->
+      <div id="money4">500$</div> <!-- Represents a donation of $500 -->
+      <div id="money5">1000$</div> <!-- Represents a donation of $1000 -->
+
+      <!-- SUGGESTION:
+     - Convert these **divs** into interactive buttons for a more dynamic experience.
+     - You can add **event listeners** in JavaScript to make the selection process more intuitive. -->
+    </div>
+
+
+    <!-- SECTION: CUSTOM DONATION AMOUNT
+   - Allows users to enter a **custom donation amount** in their local currency (tk).
+   - Uses an **input field** with a placeholder to indicate expected input.
+   - Includes a heading (<h4>) to reinforce what the input is for.
+   - Provides a **donate button** to submit the donation amount. -->
+    <center>
+      <div class="main-container-4">
+
+        <!-- CUSTOM DONATION INPUT FIELD
+       - Allows users to manually enter a donation amount.
+       - The placeholder **"Other Amount (tk)"** helps guide users on input format.
+       - Consider adding **input validation** to ensure only numerical values are accepted. -->
+        <input type="text" placeholder="Other Amount (tk)">
+
+        <!-- HEADING TO CLARIFY THE INPUT FIELD PURPOSE
+       - Provides a label-style heading to ensure clarity.-->
+        <h4>Other Amount (tk)</h4>
+
+        <!-- CALL TO ACTION BUTTON (DONATE NOW)
+       - Enables users to proceed with their donation after entering an amount.
+       - The `target="_blank"` attribute ensures the donation page opens in **a new tab**.
+       - Ensure the **href links to a valid donation page** to facilitate smooth transactions. -->
+        <a target="_blank" href="#">DONATE NOW</a>
+
+        <!-- SUGGESTION:
+       - Add **form validation** using JavaScript or HTML5 constraints (`type="number"`) 
+         to restrict input to numerical values only.
+       - Consider including a **confirmation step** before processing the donation. -->
+      </div>
+    </center>
+
+
+    <!-- SECTION: DONATION PLAN DETAILS
+   - Provides an overview of **how donations are allocated** to help children in need.
+   - Uses a **structured format** with headings, paragraphs, and a list for clarity. -->
+    <center>
+      <div class="main-container-5">
+
+        <!-- MAIN TITLE FOR DONATION PLAN
+       - Uses <h1> to ensure the heading stands out.
+       - Clearly states the purpose of the section. -->
+        <h1>Our Donations Plan</h1>
+
+        <!-- OVERVIEW OF FUND ALLOCATION
+       - Highlights that **85% of every dollar directly supports children**.
+       - Helps build **trust** and **transparency** with donors. -->
+        <p>85% of every dollar goes directly to supporting children.</p>
+
+        <!-- STRUCTURED LIST OF DONATION IMPACT
+       - Uses an **unordered list (<ul>)** to display tangible donation benefits.
+       - Provides examples of how different amounts contribute to children's needs. -->
+        <ul>
+          <li>$50 provides food for three children for a month.</li> <!-- Ensures food security for children -->
+          <li>$150 provides blankets for 30 children.</li> <!-- Helps children stay warm in difficult conditions -->
+          <li>$300 provides 150 face masks for refugee health workers.</li>
+          <!-- Supports healthcare and safety efforts -->
+        </ul>
+
+        <!-- CLOSING STATEMENT TO ENCOURAGE SUPPORT
+       - Reaffirms that donor contributions help keep **Bangladeshi children healthy, educated, and safe**.
+       - Strengthens emotional appeal for potential donors. -->
+        <p>With your support, we can continue our work to keep children in Bangladesh healthy, educated, and safe.</p>
+
+      </div>
+    </center>
+
+
+    <br>
+    <br>
+
+
+    <!-- SECTION: DIFFERENT DONATION PROGRAMS
+   - Highlights various ways people can support families in need.
+   - Uses structured **div elements** to present different donation categories visually. -->
+    <div class="main-container-6">
+
+      <!-- FIRST DONATION CATEGORY: FOOD FOR A FAMILY
+     - Provides information on sponsoring a family by covering grocery costs.
+     - Encourages **ongoing communication** between donors and recipients. -->
+      <div id="frist-container-1">
+
+        <!-- DONATION CATEGORY ICON
+       - Displays a relevant **food icon** to visually represent the program.
+       - The image path should be verified to ensure it correctly loads.
+       - Add an **alt text** description for accessibility. -->
+        <img src="Project-Degine-&-Image/icons/food.png" alt="Food donation icon">
+
+        <!-- CATEGORY TITLE
+       - Uses <h3> to clearly label the donation program.
+       - Ensures the heading is visually distinct. -->
+        <h3>Food for a family</h3>
+
+        <!-- DESCRIPTION OF DONATION PROGRAM
+       - Explains how donations can **help sponsor families** by covering grocery costs.
+       - Highlights the **Family-to-Family initiative**, allowing donors to connect through letters or emails.
+       - Mentions how recipients can **retrieve emails or mail** at their local outreach centers.
+       - **Consider removing <br> tags** and using CSS instead for better spacing. -->
+        <p>
+          Sponsoring a family in need is easy with a monthly credit card donation that helps defray the cost of
+          groceries. Family-to-Family matches families and encourages ongoing communication through letters or
+          email. The recipients can check email or receive mail at their local outreach center when they pick up
+          their food or grocery coupons. Here’s how to get started:
+        </p>
+
+      </div>
+
+      <!-- SECOND DONATION CATEGORY: SHELTER FOR A FAMILY
+     - Highlights efforts to **prevent and end family homelessness**.
+     - Uses a **structured format** to present relevant information. -->
+      <div id="frist-container-2">
+
+        <!-- ICON REPRESENTING SHELTER DONATION
+       - Displays a shelter-related image to visually emphasize the program.
+       - Ensure the image path is correct to avoid loading issues.
+       - Add an **alt text description** for accessibility. -->
+        <img src="Project-Degine-&-Image/icons/shelter.png" alt="Shelter donation icon">
+
+        <!-- CATEGORY TITLE
+       - Uses <h3> to clearly label the donation program.
+       - Consider capitalizing the title correctly: "Shelter for a Family". -->
+        <h3>Shelter for a Family</h3>
+
+        <!-- DESCRIPTION OF DONATION PROGRAM
+       - Introduces the **nation’s leading organization** focused on homelessness prevention.
+       - Highlights the **holistic approach** combining prevention, shelter, and stabilization efforts.
+       - Mentions the **200+ Family Promise Affiliates**, explaining their role in outreach.
+       - States the goal of changing **1 million children's lives by 2030**.
+       - Consider **removing <br> tags** and using CSS for spacing improvements. -->
+        <p>
+          Shelter for a Family is the nation’s leading organization working to prevent and end family homelessness.
+          Our holistic, community-based approach to helping families achieve stability makes us unique. Over 200
+          Family Promise Affiliates, located throughout the country, do this by providing prevention services
+          before families reach crisis, shelter when they become homeless, and stabilization programs once they
+          have secured housing to ensure they remain independent. Our aspiration is to change the lives of 1
+          million children by 2030.
+        </p>
+
+      </div>
+
+      <!-- THIRD DONATION CATEGORY: EDUCATION FOR A CHILD
+     - Highlights efforts to provide **holistic educational support** for high school students in low-income communities.
+     - Uses a **structured format** to present the donation program effectively. -->
+      <div id="frist-container-3">
+
+        <!-- ICON REPRESENTING EDUCATION DONATION
+      - Displays an education-related image to visually emphasize the program.
+      - Ensure the image path is correct to avoid loading issues.
+      - Add an **alt text description** for accessibility. -->
+        <img src="Project-Degine-&-Image/icons/Frame-1.png" alt="Education donation icon">
+
+        <!-- CATEGORY TITLE
+       - Uses <h3> to clearly label the donation program.
+       - Consider capitalizing the title correctly: "Education for a Child". -->
+        <h3>Education for a Child</h3>
+
+        <!-- DESCRIPTION OF DONATION PROGRAM
+       - Introduces the **Pathways to Education Program**, which supports students in high school.
+       - Explains the **holistic support model**, combining academic, financial, social, and one-on-one assistance.
+       - Highlights how donations **remove barriers to graduation** and foster positive youth development.
+       - Corrects minor spelling and grammatical errors for better clarity.
+       - Consider **removing <br> tags** and using CSS for spacing improvements. -->
+        <p>
+          The award-winning Pathways to Education Program is provided to high school students living in low-income
+          communities across Bangladesh. Our program’s holistic combination of academic, financial, social, and
+          one-on-one supports is proven to remove barriers to graduation and promote positive youth development
+          during critical high school years. If you donate to our program, you will help children in need receive
+          a strong education. So, donate to our program and be part of this meaningful initiative.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <br>
+    <br>
+
+
+    <!-- SECTION: ENCOURAGEMENT FOR DONATIONS
+   - Highlights the **importance of donor support** in helping communities.
+   - Uses structured **content blocks** to present key messages and a donation call-to-action. -->
+    <div class="main-container-7">
+
+      <!-- TEXT CONTENT BLOCK: IMPACT OF DONATIONS
+     - Displays **a strong heading** encouraging visitors to support the cause.
+     - Contains a paragraph explaining **how donations directly improve health, education, and facilities**.
+     - Ends with a **call-to-action link** inviting users to learn more about donation methods. -->
+      <div id="sceond-container-1">
+
+        <!-- MAIN TITLE FOR DONATION APPEAL
+       - Uses <h1> to ensure the heading stands out.
+       - Consider correcting the grammar to: "Their Lives Depend on Your Donation". -->
+        <h1>Their Lives Depend on Your Donation</h1>
+
+        <!-- DESCRIPTION OF DONATION IMPACT
+       - Explains **how contributions help provide vaccines, clean water, nutrition, and education**.
+       - Highlights **trauma recovery support for children and caregivers**.
+       - Discusses **infrastructure improvements** in schools, including teacher training and sanitation repairs.
+       - Consider **removing <br> tags** and using CSS for improved formatting. -->
+        <p>
+          Your donation will help deliver urgent supplies, such as vaccines, safe water, and other health and
+          nutrition items across the country, including in hard-to-reach areas. It will improve access to education
+          and psychosocial support services to help children and caregivers recover from trauma. Additionally,
+          donations contribute to enhancing school facilities, training teachers, and repairing water and sanitation
+          facilities in schools.
+        </p>
+
+        <!-- CALL TO ACTION: LEARN HOW TO DONATE
+       - Uses <a> to create a clickable link for donation instructions.
+       - The `target="_blank"` attribute ensures the page opens in **a new tab**.
+       - Ensure the **href links to a valid donation page**. -->
+        <a target="_blank" href="#">HOW TO DONATE?</a>
+
+      </div>
+
+      <!-- IMAGE BLOCK: VISUAL APPEAL FOR DONATIONS
+     - Displays a **donation-related image** to reinforce the importance of contributions.
+     - Ensure the **image path is correct** to avoid loading issues.
+     - Add an **alt text description** for accessibility. -->
+      <div id="photo-container-1">
+        <img src="Project-Degine-&-Image/images/donation12.png" alt="Children receiving aid through donations">
+      </div>
+
+    </div>
+
+
+
+    <!-- SECTION: NEWSLETTER SUBSCRIPTION
+   - Encourages visitors to learn more about **BD-Donate-Organization's** mission and impact.
+   - Uses structured **div elements** to present content visually. -->
+    <div class="main-container-8">
+
+      <!-- IMAGE BLOCK: VISUAL APPEAL FOR DONATIONS
+     - Displays an inspiring image to reinforce the importance of contributions.
+     - Ensure the **image path is correct** to avoid loading issues.
+     - Add an **alt text description** for accessibility. -->
+      <div id="photo-container-2">
+        <img src="Project-Degine-&-Image/images/donation10.jpg" alt="Children benefiting from donations">
+      </div>
+
+      <!-- TEXT CONTENT BLOCK: IMPACT AND MISSION OF BD-DONATE-ORGANIZATION
+     - Displays a **strong heading** to reinforce the urgency of donations.
+     - Explains the organization’s **six-decade history**, governance focus, and social impact. -->
+      <div id="sceeond-container-2">
+
+        <!-- MAIN TITLE FOR DONATION MESSAGE
+       - Uses <h1> to create a **bold and attention-grabbing statement**.
+       - Consider correcting the grammar to: "They Need Us to Survive". -->
+        <h1>They Need Us to Survive</h1>
+
+        <!-- DESCRIPTION OF BD-DONATE-ORGANIZATION
+       - Highlights the **international nonprofit** dedicated to improving lives.
+       - Discusses the **six decades of experience** and **deep local expertise** driving their mission.
+       - Explains the organization’s core focus areas: governance, gender equality, economic growth, 
+         environmental action, and international relations.
+       - Consider **removing <br> tags** and using CSS for improved formatting. -->
+        <p>
+          BD-Donate-Organization is a nonprofit international development organization committed to improving lives
+          across Bangladesh. Informed by six decades of experience and deep local expertise, our work focuses on
+          good governance, women’s empowerment and gender equality, inclusive economic growth, environmental and
+          climate action, and regional and international relations.
+        </p>
+
+        <!-- CALL TO ACTION: HOW TO CONTRIBUTE
+       - Uses <a> to create a clickable link that directs users to contribution options.
+       - The `target="_blank"` attribute ensures the page opens in **a new tab**.
+       - Ensure the **href links to a valid contribution page** to facilitate user engagement. -->
+        <a target="_blank" href="#">HOW TO CONTRIBUTE?</a>
+
+      </div>
+
+    </div>
+
+
+    <br><br>
+    <br><br>
+    <br><br>
+
+
+
+    <!-- SECTION: NEWSLETTER SUBSCRIPTION
+   - Encourages visitors to subscribe for daily updates on emergency aid and donation efforts.
+   - Uses structured **div elements** to present content visually in a centered layout. -->
+    <center>
+
+      <!-- MAIN SUBSCRIPTION CONTENT BLOCK
+     - Displays an engaging **headline** and explanation of the newsletter's purpose. -->
+      <div class="main-container-9">
+
+        <!-- MAIN TITLE FOR SUBSCRIPTION SECTION
+       - Uses <h1> to ensure the heading stands out.
+       - Consider correcting the wording for clarity: "Get Our Updates Daily!". -->
+        <h1>Get Our Updates Daily!</h1>
+
+        <!-- NEWSLETTER DESCRIPTION
+       - Explains the importance of regular updates due to **emergency assistance needs**.
+       - Encourages visitors to **donate and stay informed**.
+       - Suggests subscribing with an email account to receive important updates.
+       - Fixes minor spelling and grammar mistakes for better readability.
+       - Consider **removing <br> tags** and using CSS for spacing improvements. -->
+        <p>
+          We keep updating our website announcements daily because emergency help is needed at all times.
+          Your support can make a difference! You should help us with donations for those in urgent need.
+          If you want to stay informed and receive our updates, please subscribe to our website with your
+          email account. We will definitely keep you updated. Thank you!
+        </p>
+
+      </div>
+
+      <!-- EMAIL SUBSCRIPTION FORM
+     - Provides an input field for users to enter their email.
+     - Includes a "SUBSCRIBE" button for users to submit their subscription request. -->
+      <div class="main-container-10">
+
+        <span id="email-box">
+
+          <!-- EMAIL INPUT FIELD
+         - Users can enter their email address to subscribe.
+         - Ensure form validation for **email format correctness** before submission. -->
+          <input type="text" placeholder="Email">
+
+          <!-- SUBSCRIBE BUTTON
+         - Allows users to submit their email for newsletter updates.
+         - Ensure the button is styled for visibility and responsiveness. -->
+          <button>SUBSCRIBE</button>
+
+        </span>
+
+      </div>
+
+    </center>
+
+  </main>
+
+
+  <br>
+  <br>
+
+
+  <!-- FOOTER SECTION
+ - Serves as the concluding part of the webpage.
+ - Can contain branding, motivational messages, or additional links. -->
+  <center>
+    <footer>
+
+      <!-- FOOTER HEADING
+     - Uses <h2> to display a **motivational phrase**.
+     - The phrase "Be Humle" might be intended as "Be Humble"—consider correcting for clarity.
+     - Uses <i> (italic) to give the text emphasis. -->
+      <h2><i>Be Humble</i></h2>
+
+      <!-- FOOTER TEXT
+     - Displays a brief statement, "I'm gonna do it."
+     - Consider clarifying the meaning to reinforce the message. -->
+      <p>I'm gonna do it</p>
+
+    </footer>
+  </center>
+
+</body>
+
+</html>
