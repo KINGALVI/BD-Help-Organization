@@ -487,11 +487,11 @@ header {
    - Defines **height** (10vh) and **width** (10vw) to ensure proper scaling inside the container.
 */
 #frist-container-3 img {
-  padding-left: 8vw;
+  padding-left: 9vw;
   /* Moves the image slightly right */
   height: 10vh;
   /* Sets the image height */
-  width: 10vw;
+  width: 6vw;
   /* Defines the image width */
 }
 
