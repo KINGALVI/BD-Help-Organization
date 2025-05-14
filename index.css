@@ -622,6 +622,7 @@ header {
 .main-container-8 {
   display: flex;
   /* Enables flexible horizontal arrangement */
+  justify-content: flex-start;
   padding-left: 25vw;
   /* Moves content inward from the left */
   padding-top: 25vw;
